@@ -5,23 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>To-Do List</title>
-    <link rel="stylesheet" href="style.css0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="pngtree-to-do-list-icon-cartoon-style-png-image_5080528-removebg-preview.png">
+    
 </head>
 <body>
     <div class="container">
         <div class="todo-app">
-            <h1>
-                TO-DO LIST
-            </h1>
-            <img src="" alt="" class="todo-icon">
+            <h1>TO-DO LIST <img src="pngtree-to-do-list-icon-cartoon-style-png-image_5080528-removebg-preview.png" alt="" class="todo-icon"></h1>
             <div class="fields">
                 <form action="">
-                    <input type="text" name="" id="task">
-                    <button>ADD TASK</button>
+                    <input type="text" id="task">
+                    <button onclick="addTask()" type="button">ADD TASK</button>
                 </form>
             </div>
             <div class="my-tasks">
-                <ul class="task-list" type="none"></ul>
+                <ul class="task-list" type="none">
+                    <!-- <li>task1</li>
+                    <li>task1</li>
+                    <li>task1</li> -->
+                </ul>
             </div>
         </div>
     </div>
